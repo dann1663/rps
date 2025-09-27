@@ -10,19 +10,7 @@ The game then compares both choices and prints the result:
 win, lose, or draw.
 
 """
-Rock-Paper-Scissors game implemented in Python.
 
-This script allows a human player to play against a bot. 
-The bot's choice is generated randomly, while the human player 
-provides input that is validated and converted into one of the 
-valid options.
-
-The game then compares both choices and prints the result: 
-win, lose, or draw.
-
-Modules:
-    - random (for generating the bot's choice)
-"""
 import random
 
 def bot_choice():
